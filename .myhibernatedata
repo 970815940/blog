@@ -1,0 +1,22 @@
+#
+#Tue Mar 18 16:32:16 CST 2014
+genBasicCompId=false
+sessionFactoryName=
+profile=
+daoSFId=
+version=3.2
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+libInstallFolder=/WebRoot/WEB-INF/lib
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+reSettingsFile=
+configFile=/blogApp/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=true
