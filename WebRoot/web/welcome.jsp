@@ -1,13 +1,11 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"
+
 %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>   
-    <title></title>
+    <title>${pb_contextpath }/commweb/foot.jsp</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -25,7 +23,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</style>
 
   </head>
-  
   <body style="margin: 0px auto;">
    	<table border="0"  height="100%" width="100%" cellpadding="0" cellspacing="0">	
    		<tr height="90%">
@@ -33,7 +30,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    				<td valign="top" class="td2">
    						<table  cellpadding="0" cellspacing="0" width="100%" height="100%">
    							<tr valign="middle">
-   								<td><center><img  src="images/tou2.png" /></center></td>
+   								<td><center><img  src="${pb_contextpath }/web/images/tou2.png" /></center></td>
    								<td>&nbsp;</td>
    							</tr>
    							<tr>
@@ -41,7 +38,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    								<td>&nbsp;</td>   							
    							</tr>
    							<tr>
-   								<td><center><a href="index.jsp">进入博客</a></center></td>
+   								<td><center><a href="${pb_contextpath }/comm/bcadoBlog.peach?open=1">进入博客</a></center></td>
    							</tr>
    						</table>
    					
@@ -54,7 +51,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    			<td class="td2" >
    			   	<table  cellpadding="0" cellspacing="0" width="100%" height="100%">
    					<tr height="100%">
-   						<td width="1200px;"><jsp:include page="/commweb/foot.jsp"></jsp:include></td>
+   						<td width="1200px;">
+   							    <jsp:include page="/commweb/foot.jsp"></jsp:include>
+   						</td>
    					</tr>
    				</table>
    			</td>

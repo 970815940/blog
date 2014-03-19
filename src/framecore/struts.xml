@@ -8,7 +8,9 @@
     <constant name="struts.enable.DynamicMethodInvocation" value="false" />
 	<constant name="struts.i18n.encoding" value="UTF-8"/>
 	<constant name="struts.multipart.maxSize" value="50000000"></constant>
-	<constant name="struts.action.extension" value="blog123"/> 
- 
-	<include file="struts_system.xml"></include>
+	<constant name="struts.action.extension" value="peach"/> 
+
+
+
+	<include file="../configs/struts/struts-comm-context.xml"></include>
 </struts>

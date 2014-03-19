@@ -5,7 +5,6 @@ package com.peach.app.blog.security.entity;
  * 
  * @author MyEclipse Persistence Tools
  */
-
 public class BSentence implements java.io.Serializable {
 
 	// Fields

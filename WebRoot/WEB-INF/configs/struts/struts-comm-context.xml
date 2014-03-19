@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="blog_comm" namespace="/comm" extends="json-default">
+		<action name="bca*" class="com.peach.commAction" method="{1}">
+			<result name="success">/web/index.jsp</result>
+			<result name="blog">/web/index.jsp</result>
+			<result name="blog2">/web/index.jsp</result>
+			<result name="msg">/web/onLineMsg.jsp</result>
+			<result name="aboutAuth">/web/aboutAuth.jsp</result>
+			<result name="helpAuth">/web/helpAuth.jsp</result>
+			<result name="login">/web/index.jsp</result>
+			<result name="register">/web/index.jsp</result>
+			<result name="input">/commweb/error.jsp</result>
+			
+		</action>
+	</package>
+</struts>
