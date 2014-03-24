@@ -4,6 +4,10 @@
   <head>
  <meta content="width=device-width, initial-scale=1.0" name="viewport">
  <meta charset="gbk">
+     <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->   
 <link href="${pb_contextpath }/jslib/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> 
     <title>欢迎来到我的博客</title>
 	<meta http-equiv="pragma" content="no-cache">
@@ -53,12 +57,17 @@
 				<li><a  href="${pb_contextpath }/comm/bcadoBlog.peach?open=8">注册</a></li>
 			</ul>		
 		</div>
-		fsdf
-		<div style="height: 500px;"></div>
+		UI  development 
+		<div style="height: 400px;"></div>
 	   	<div  id="footer">
+	   		<!-- 
 	   		<div class="container">
+	   		
 	   			<p class="muted credit">版权所有<a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
+	   		
 	   		</div>
+	   		-->
+	   		 <jsp:include page="/commweb/foot.jsp"></jsp:include>
    		</div>	
 	</div>  
 
